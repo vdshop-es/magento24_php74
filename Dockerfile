@@ -22,6 +22,7 @@ RUN apt-get update && apt-get install -y \
     php-xml \
     php-xsl \
     php-zip \
+    php-sockets \
     && apt-get clean
     
 # Install extra utils
